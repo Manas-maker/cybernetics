@@ -29,6 +29,7 @@ const Post = ({post}) => {
     name = 'Missing name',
     categories,
     authorImage,
+    mainImage,
     body=[]
   } = post
   return (
@@ -50,6 +51,14 @@ const Post = ({post}) => {
           />
         </div>
       )}
+      {mainImage && (
+        <div>
+          <img
+            src={urlFor(mainImage).width(50)
+            .url()}
+          />
+        </div>
+      )}
       <PortableText
         value={body}
         components={ptComponents}
@@ -63,6 +72,7 @@ const query = groq`*[_type == "post" && slug.current == $slug][0]{
   "name": author->name,
   "categories": categories[]->title,
   "authorImage": author->image,
+  "mainImage": mainImage,
   body
 }`
 export async function getStaticPaths() {
@@ -74,7 +84,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths.map((slug) => ({params:{slug}})),
-    fallback: true,
+    fallback: 'blocking',
   }
 }
 

@@ -1,0 +1,19 @@
+        return(<section>
+            {/* Hello world */}
+            <style
+              dangerouslySetInnerHTML={{
+                __html:
+                  "\n                @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');\n                html{background-color: rgb(7, 116, 110);}\n                section{display: flex; justify-content: center; align-items: center;}\n                h1{font-family: 'Teko'; font-size: 500%; color: yellow;}\n                "
+              }}
+            />
+            <section>
+              <h1>REGISTRATION SUCCESSFUL!</h1>
+              <h2>FOLLOW US ON INSTAGRAM AT <a href='https://instagram.com/cybernetics.sju?igshid=MWdodzk5aG1oYTY4bA=='>@cybernetics.sju</a> FOR MORE UPDATES</h2>
+              <h2>CLICK <a href='https://chat.whatsapp.com/JAvlBFrmdu805xkm0w9NPw'>HERE</a> TO JOIN THE WHATSAPP GROUP</h2>
+              <h3>ALSO JOIN YOUR RESPECTIVE EVENT GROUPS</h3>
+              {formData.tf=='on'?<a href='https://chat.whatsapp.com/KxbZyyLSwLx70Ve7QUsPKq'><h3>TECH FEUD</h3></a>:null}
+              {formData.sens=='on'?<a href='https://chat.whatsapp.com/L4Ks6TpyyJ094P7DmU4Ifd'><h3>SENSORY</h3></a>:null}
+              {formData.etm=='on'?<a href='https://chat.whatsapp.com/KgG2otnrp1b1HQ5DPYnOEi'><h3>ESCAPE THE MAINFRAME</h3></a>:null}
+              {formData.ww=='on'?<a href='https://chat.whatsapp.com/JdE9aia6Phg7XS168mSiF0'><h3>WEEB WARS</h3></a>:null}
+            </section>
+          </section>);
