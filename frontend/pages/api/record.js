@@ -50,7 +50,7 @@ await table1.create([
 res.status(200).send();
 //res.status(200).send('<html><h1 style="margin: auto;">REGISTRATION SUCCESSFUL!</h1></html>');
 }
-    /*fetch("https://api.airtable.com/v0/appBILRlgu5Md99a8/tblMypUO46Se4lavC", {mode: 'cors', headers:{'content-type': 'application/json', 'Authorisation':'Bearer pat4EzBJDRdJp4Oij.3d2a69b6199406195b9c01ccd12edf430e57672574170b6a63965e9195f0794f'}, method: 'POST', body: JSON.stringify({
+    /*fetch("https://api.airtable.com/v0/appBILRlgu5Md99a8/tblMypUO46Se4lavC", {mode: 'cors', headers:{'content-type': 'application/json', 'Authorisation':''}, method: 'POST', body: JSON.stringify({
       fields: {
         Name: body.teamName,
         "Member 1 Name": "namename"

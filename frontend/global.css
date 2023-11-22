@@ -486,3 +486,7 @@ h3{
 #tNlabel{
   font-size: 120%;
 }
+
+.row {
+  display: flex;
+}

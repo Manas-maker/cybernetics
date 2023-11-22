@@ -35,138 +35,152 @@ const About = ()=> {
             </Helmet>
         <Nav/>
         <div className='cont'>
-        <div className="card oneone">
-        <div className="popimage">
-            <Image src={nikhil} alt="" className="cover-image"/>
+        <div className='row one'>
+            <div className="card oneone">
+            <div className="popimage">
+                <Image src={nikhil} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
+            <div className="card onetwo">
+            <div className="popimage">
+                <Image src={jestina} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card onetwo">
-        <div className="popimage">
-            <Image src={jestina} alt="" className="cover-image"/>
+        <div className='row two'>
+            <div className="card twoone">
+            <div className="popimage">
+                <Image src={aryan} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
+            <div className="card twotwo">
+            <div className="popimage">
+                <Image src={harshita} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
+            <div className="card twothree">
+            <div className="popimage">
+                <Image src={astle} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card onethree">
-        <div className="popimage">
-            <Image src={aryan} alt="" className="cover-image"/>
+        <div className='row three'>
+            <div className="card threeone">
+            <div className="popimage">
+                <Image src={rida} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
+            <div className="card threetwo">
+            <div className="popimage">
+                <Image src={winston} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>  
+            <div className="card threethree">
+            <div className="popimage">
+                <Image src={shubhan} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>   
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card twoone">
-        <div className="popimage">
-            <Image src={harshita} alt="" className="cover-image"/>
+        <div className='row four'>
+            <div className="card fourone">
+            <div className="popimage">
+                <Image src={miriam} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>   
+            <div className="card fourtwo">
+            <div className="popimage">
+                <Image src={farhaan} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>   
+            <div className="card fourthree">
+            <div className="popimage">
+                <Image src={ananya} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card twotwo">
-        <div className="popimage">
-            <Image src={astle} alt="" className="cover-image"/>
+        <div className='row five'>
+            <div className="card fiveone">
+            <div className="popimage">
+                <Image src={sanjay} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
+            <div className="card fivetwo">
+            <div className="popimage">
+                <Image src={divyansh} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
+            <div className="card fivethree">
+            <div className="popimage">
+                <Image src={suhas} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card threeone">
-        <div className="popimage">
-            <Image src={rida} alt="" className="cover-image"/>
+        <div className='row six'>
+            <div className="card sixone">
+            <div className="popimage">
+                <Image src={marissa} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
+            <div className="card sixtwo">
+            <div className="popimage">
+                <Image src={tanusha} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
+            <div className="card sixthree">
+            <div className="popimage">
+                <Image src={shayari} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
         </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card threetwo">
-        <div className="popimage">
-            <Image src={winston} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>  
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={shubhan} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>   
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={miriam} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>   
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={farhaan} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div>   
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={ananya} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={sanjay} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={divyansh} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={suhas} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={marissa} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={tanusha} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={shayari} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={manas} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
-        </div> 
-        <div className="card threethree">
-        <div className="popimage">
-            <Image src={srish} alt="" className="cover-image"/>
-        </div>
-        <Image src={Manas} className="title"/>
-        <Image  src={character} className="core"/>
+        <div className='row seven'>
+            <div className="card sevenone">
+            <div className="popimage">
+                <Image src={manas} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div> 
+            <div className="card seventwo">
+            <div className="popimage">
+                <Image src={srish} alt="" className="cover-image"/>
+            </div>
+            <Image src={Manas} className="title"/>
+            <Image  src={character} className="core"/>
+            </div>
         </div> 
         </div>
         <section className='about'>
