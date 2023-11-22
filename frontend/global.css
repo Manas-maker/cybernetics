@@ -241,12 +241,12 @@ section{
     padding-top: 7vh;
     display: grid;
     grid-template-areas: "a b"
-    "a b c"
-    "a b c"
-    "a b c"
-    "a b c"
-    "a b c"
-    "a b";
+    "c d e"
+    "f g h"
+    "i j k"
+    "l m n"
+    "o p q"
+    "r s";
     justify-content: center;
     align-items: center;
     place-items: center;
