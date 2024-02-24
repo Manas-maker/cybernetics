@@ -3,7 +3,7 @@ const Record = async (req, res) => {
     if (req.method == 'POST') {
       const body = JSON.parse(req.body);
       console.log(body)
-      Airtable.configure({ apiKey: 'patNzGeQW4T77lRA9.9c37e99c85b134677c0c2a6cc7e690666eab74e192bac70b532489b5792d72bd' });
+      Airtable.configure({ apiKey: 'API_KEY' });
       var base = Airtable.base('appBILRlgu5Md99a8');
       var table1 = base('Teams');
       table1.select({
