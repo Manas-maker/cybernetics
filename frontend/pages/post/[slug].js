@@ -1,7 +1,8 @@
 import groq from 'groq'
 import imageUrlBuilder from '@sanity/image-url'
 import { PortableText } from '@portabletext/react'
-import client from '@/client'
+import {client} from '@/pages/index'
+import Image from 'next/image'
 
 function urlFor (source) {
   return imageUrlBuilder(client).image(source)
@@ -14,7 +15,7 @@ const ptComponents = {
         return null
       }
       return (
-        <img
+        <Image
           alt={value.alt || ''}
           loading="lazy"
           src={urlFor(value).width(320).height(240).fit('max').auto('format')}
@@ -25,8 +26,8 @@ const ptComponents = {
 }
 const Post = ({post}) => {
   const {
-    title = 'Missing title',
-    name = 'Missing name',
+    title,
+    name,
     categories,
     authorImage,
     mainImage,
@@ -44,18 +45,20 @@ const Post = ({post}) => {
       )}
       {authorImage && (
         <div>
-          <img
+          <Image
             src={urlFor(authorImage)
             .width(50)
             .url()}
+            alt=""
           />
         </div>
       )}
       {mainImage && (
         <div>
-          <img
+          <Image
             src={urlFor(mainImage).width(50)
             .url()}
+            alt=""
           />
         </div>
       )}
@@ -77,8 +80,7 @@ const query = groq`*[_type == "post" && slug.current == $slug][0]{
 }`
 export async function getStaticPaths() {
 
-  const paths = await client.
-  fetch(
+  const paths = await client.fetch(
     groq`*[_type=="post" && defined(slug.current)][].slug.current`
   )
 
